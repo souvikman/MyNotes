@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #f5ab2b;
+    background-image: linear-gradient(90deg, #f5ab2b 0%, #fd8227 100%);
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container-fluid h2 img{
+    width: 250px;
+    height: 60px;
+}
+
+
+.container-cn{
+    padding-left: 5%;
+}
+
+
+.container-cn button{
+    display: flex;
+    align-items: center;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #f85f31 74%);
+    color: aliceblue;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 20px 0 20px;
+    cursor: pointer;
+}
+
+.container-cn button img{
+    width: 35px;
+    margin-right: -5px;
+    margin-left: -8px;
+}
+
+.me-2{
+    width: 95% !important;
+    border-radius: 8px;
+
+}
+
+.btn-outline-success{
+    border-radius: 8px;
+    background-color: rgb(248, 245, 245);
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-time {
+    display: inline-block;
+    width: 160px;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+
+.addNoteContainer{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.input_title{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 6px;
+}
+
+.input_descp{
+    border: none;
+}
+
+.button_save{
+    border-radius: 10px;
+}
+.button_save {
+    border-radius: 10px;
+    background: linear-gradient(147deg, #ffe53b 0%, #f24a17 100%);
+    color: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+
+.button_save:hover {
+    background: linear-gradient(147deg, #f24a17 0%, #ffe53b 100%);
+}
+
+.card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+
+.card_btns{
+    border-radius: 50%;
+    width: 38px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card_btns img{
+    width: 125%;
+    height: auto;
+}
